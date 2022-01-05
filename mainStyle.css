@@ -1,0 +1,18 @@
+body{
+	background-color:#EDEDED;
+}
+
+.model1{
+	object-position: none;
+	position: absolute;
+	width: 280px;
+	height: 350px;
+}
+.h1{
+	font-size: 200px;
+	font: bold;
+}
+.p{
+	font-size: 35px;
+	font: sans-serif;
+}

@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Balsamiq Sans;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+/* Home */
+
+.container {
+	height: 100vh;
+	width: 100%;
+	background-image: url(bg1.png);
+	background-position: center;
+	background-size: cover;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.circle {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #fc5a8d;
+	clip-path: circle(650px at right 850px);
+}
+
+.main-nav {
+	text-align: center;
+	z-index: 5;
+}
+
+.main-nav ul {
+	display: inline-flex;
+	list-style: none;
+	z-index: 5;
+}
+
+.main-nav ul li {
+	width: 115px;
+	margin: 10px;
+	padding: 10px;
+	z-index: 5;
+}
+
+.main-nav ul li a {
+	text-decoration: none;
+	color: black;
+	font-size: 1.1em;
+	position: relative;
+	z-index: 5;
+}
+
+.active, .main-nav ul li:hover {
+	background: hotpink;
+	border-radius: 15px;
+	z-index: 5;
+}
+
+.logo {
+	width: 195px;
+}
+
+.main-nav img {
+	position: absolute;
+	top: 0px;
+	left: 15px;
+}
+
+.sub-menu {
+	display: none; 
+	z-index: 5;
+}
+
+.main-nav ul li:hover .sub-menu {
+	display: block;
+	position: absolute;
+	background: hotpink;
+	border-radius: 15px;
+	z-index: 5;
+}
+
+.main-nav ul li:hover .sub-menu ul {
+	display: block;
+	margin: 10px;
+	z-index: 5;
+}
+
+.main-nav ul li:hover .sub-menu ul li {
+	width: 125px;
+	padding: 5px;
+	border-bottom: 1px solid white;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+	z-index: 5;
+}
+
+.main-nav ul li:hover .sub-menu ul li:last-child {
+	border-bottom: none;
+	z-index: 5;
+}
+
+.main-nav ul li:hover .sub-menu ul li a:hover {
+	color:  white;
+	z-index: 5;
+}
+
+.content h1 {
+	font-size: 5.5em;
+	font-weight: 100;
+	margin-top: .5px;
+	margin-bottom: 5px;
+	color: deeppink;
+	font-family: Pacifico;
+}
+
+.content h4 {
+	font-weight: lighter;
+	font-family: Raleway;
+
+}
+.content p {
+	font-size: 18px;
+	font-family: Raleway;
+}
+
+.content {
+	margin-left: 10%;
+	margin-top: 10%;
+}
+
+.content h4 {
+	display: inline-block;
+	background:  linear-gradient(45deg, #FFF, #FF69B4);
+	border-radius: 6px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	box-shadow: 30px 8px 22px rgba(94, 28, 68, 0.15);
+}
+
+.picture {
+	width: 45%;
+	position: absolute;
+	align-items: center;
+	top: 0;
+	right: 5em;
+}
+
+.border {
+	width: 45%;
+	position: absolute;
+	align-items: center;
+	top: 0;
+	right: 5em;
+}
+
+
+
+/* Solution */
+
+.info {
+	margin-left: 10%;
+	margin-top: 10%;
+}
+
+.info h1 {
+	font-weight: bold;
+	font-family: Pacifico;
+	display: inline-block;
+	background:  linear-gradient(45deg, #FFF, #FF69B4);
+	border-radius: 6px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	box-shadow: 30px 8px 22px rgba(94, 28, 68, 0.15);
+}
+
+.info p {
+	font-size: 18px;
+	font-family: Raleway;
+
+}
+
+.pic {
+	width: 25%;
+	position: absolute;
+	align-items: center;
+	top: 20%;
+	right: 10em;
+}
+
+/* About */
+
+.photo {
+	width: 28%;
+	position: absolute;
+	align-items: center;
+	top: 0;
+	right: 10em;
+}
+
+.lines {
+	width: 20%;
+	position: absolute;
+	align-items: center;
+	top: 105px;
+	right: 13.8em;
+}
+
+/* Google Patent */
+
+.imahe {
+	width: 30%;
+	position: absolute;
+	align-items: center;
+	top: 18%;
+	right: 8em;
+}
+
+.code {
+	position: absolute;
+	bottom: 0px;
+	right: 15px;
+}
+
+/* Details */
+
+.bodyarrow {
+	width: 10%;
+	position: absolute;
+	align-items: center;
+	top: 37%;
+	right: 6em;
+	transform: rotate(180deg);
+}
+
+.cameraarrow {
+	width: 10%;
+	position: absolute;
+	align-items: center;
+	top: 54%;
+	right: 31em;
+	transform: rotate(330deg);
+}
+
+.alarmarrow {
+	width: 8%;
+	position: absolute;
+	align-items: center;
+	top: 19%;
+	right: 27em;
+	transform: rotate(90deg);
+}
+
+.information {
+	margin-left: 3%;
+	margin-top: 5%;
+}
+
+.information h1 {
+	font-weight: bold;
+	font-family: Pacifico;
+	display: inline-block;
+	background:  linear-gradient(45deg, #FFF, #FF69B4);
+	border-radius: 6px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	box-shadow: 30px 8px 22px rgba(94, 28, 68, 0.15);
+}
+
+.information p {
+	font-size: 18px;
+	font-family: Raleway;
+
+}
+
+/* Timeline */
+
+.text {
+	text-align: center;
+	padding-top: 5%;
+}
+
+.table-body {
+	height: 50vh;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	font-size: large;
+}
+
+table {
+	border-collapse: collapse;
+	box-shadow: 0 5px 10px dimgray;
+	background-color: white;
+	text-align: center;
+	z-index: 5;
+}
+
+thead {
+	box-shadow: 0 5px 10px lightgray;
+}
+
+th {
+	padding: 1rem 2rem;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+	font-size: 0.7rem;
+	font-weight: 900;
+}
+
+td{
+	padding: 2%;
+}
+
+.dates {
+	border-radius: 5px;
+	padding: 0.2rem 1rem;
+	text-align: center;
+}
+
+.pages {
+	border-radius: 5px;
+	padding: 0.2rem 1rem;
+	text-align: center;
+}
+
+.november {
+	background-color: #ffcdd2;
+	color: #c62828;
+}
+
+.page {
+	background-color: #fff0c2;
+	color: #a68b00;
+}
+
+.december {
+	background-color: #c8e6c9;
+	color: #388e3c;
+}
+
+/* Excel */
+
+.extext {
+	text-align: center;
+}
+
+.eximg {
+	position: absolute;
+	display: block;
+	right: 20em;
+}
+
+/* Graph */
+
+.graphimg1 {
+	width: 36%;
+	position: absolute;
+	left: 9em;
+}
+
+.graphimg2 {
+	width: 36%;
+	position: absolute;
+	right: 9em;
+}
+
+.graphimg3 {
+	width: 36%;
+	position: absolute;
+	bottom: 1em;
+	left: 27em;
+}
+
+/* Interpretation of Data */
+
+.left-box {
+	position: absolute;
+	top: 10em;
+	left: 5em;
+}
+
+.right-box {
+	position: absolute;
+	top: 10em;
+	left: 45em;
+}
+
+.bttn {
+	font-size: 25px;
+	color: deeppink;
+}

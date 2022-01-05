@@ -1,0 +1,300 @@
+body{
+	background-image: url(guccilogo.png);
+	background-repeat: no-repeat;
+  	background-position: center;
+	background-attachment: fixed;
+	min-height: 100px;
+	background-size: cover;
+}
+
+.picture{
+	object-position: none;
+	width: 350px;
+	height: 380px;
+}
+
+p{
+	font-size: 35px;
+}
+
+
+.sub-menu{
+	display: block;
+	position: fixed;
+	background: #212121;
+	border-radius: 15px;
+	z-index: 5;
+}
+.wallpaper{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+.h1{
+	font-size: 200px;
+	font: bold;
+}
+
+.h3{
+	font-size: 40px;
+	font-style: italic;
+	margin-left: 35px;
+	margin-bottom: 10px;
+}
+
+.h4{
+	font-size: 40px;
+	font-style: italic;
+	margin-left: 35px;
+	margin-bottom: 10px;
+}
+.p{
+	font-size: 40px;
+	text-align: center;
+	font: sans-serif;
+
+}
+.em{
+	margin-top: 250px;
+	border-style: double;
+}
+
+.skills{
+	font-size: 30px;
+ border-color= "#00000"
+}
+.table{
+	table-layout: fixed;
+  width: 380px;
+
+}
+.bag1{
+	object-position: left;
+	width: 300px;
+	height: 340px;
+	margin-top: 100px;
+	margin-left: 50px;
+	margin-right: 80px;
+}
+
+.bag2{
+	object-position: left;
+	width: 300px;
+	height: 340px;
+	margin-right: 80px;
+}
+
+.bag3{
+	object-position: left;
+	width: 300px;
+	height: 340px;
+	margin-right: 80px;
+}
+
+.dress1{
+	object-position: left;
+	width: 250px;
+	height: 320px;
+	margin-top: 100px;
+	margin-left: 50px;
+	margin-right: 80px;
+}
+
+.dress2{
+	object-position: left;
+	width: 250px;
+	height: 320px;
+	margin-right: 50px;
+}
+
+.dress3{
+	object-position: left;
+	width: 250px;
+	height: 320px;
+	margin-right: 50px;
+}
+
+.dress4{
+	object-position: left;
+	width: 250px;
+	height: 320px;
+	margin-right: 50px;
+}
+
+.perfume1{
+	object-position: left;
+	width: 250px;
+	height: 320px;
+	margin-top: 100px;
+	margin-left: 50px;
+	margin-right: 80px;
+}
+
+.perfume2{
+	object-position: left;
+	width: 250px;
+	height: 320px;
+	margin-top: 100px;
+	margin-left: 50px;
+	margin-right: 80px;
+}
+
+.perfume3{
+	object-position: left;
+	width: 250px;
+	height: 320px;
+	margin-top: 100px;
+	margin-left: 50px;
+	margin-right: 80px;
+}
+
+.perfume4{
+	object-position: left;
+	width: 250px;
+	height: 320px;
+	margin-top: 100px;
+	margin-left: 50px;
+	margin-right: 80px;
+}
+
+.sh1{
+	object-position: left;
+	width: 250px;
+	height: 320px;
+	margin-top: 100px;
+	margin-left: 50px;
+	margin-right: 80px;
+}
+
+.sh1{
+	object-position: left;
+	width: 250px;
+	height: 320px;
+	margin-top: 100px;
+	margin-left: 50px;
+	margin-right: 80px;
+}
+
+.sh2{
+	object-position: left;
+	width: 250px;
+	height: 320px;
+	margin-top: 100px;
+	margin-left: 50px;
+	margin-right: 80px;
+}
+
+.sh3{
+	object-position: left;
+	width: 250px;
+	height: 320px;
+	margin-top: 100px;
+	margin-left: 50px;
+	margin-right: 80px;
+}
+
+.sh4{
+	object-position: left;
+	width: 250px;
+	height: 320px;
+	margin-top: 100px;
+	margin-left: 50px;
+	margin-right: 80px;
+}
+
+.sh5{
+	object-position: left;
+	width: 250px;
+	height: 320px;
+	margin-top: 100px;
+	margin-left: 50px;
+	margin-right: 80px;
+}
+
+
+
+}
+/* Home */
+
+.main-nav {
+	text-align: center;
+	z-index: 5;
+}
+
+.main-nav ul {
+	display: inline-flex;
+	list-style: none;
+	z-index: 5;
+}
+
+.main-nav ul li {
+	width: 115px;
+	margin: 10px;
+	padding: 10px;
+	z-index: 5;
+}
+
+.main-nav ul li a {
+	text-decoration: none;
+	color: black;
+	font-size: 1.1em;
+	position: relative;
+	z-index: 5;
+}
+
+.fall, .main-nav ul li:hover {
+	background: bisque;
+	border-radius: 15px;
+	z-index: 5;
+}
+
+.logo {
+	width: 195px;
+}
+
+.main-nav img {
+	position: absolute;
+	top: 0px;
+	left: 15px;
+}
+
+.sub-menu {
+	display: none; 
+	z-index: 5;
+}
+
+.main-nav ul li:hover .sub-menu {
+	display: block;
+	position: absolute;
+	background: beige;
+	border-radius: 15px;
+	z-index: 5;
+}
+
+.main-nav ul li:hover .sub-menu ul {
+	display: block;
+	margin: 10px;
+	z-index: 5;
+}
+
+.main-nav ul li:hover .sub-menu ul li {
+	width: 125px;
+	padding: 5px;
+	border-bottom: 1px solid white;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+	z-index: 5;
+}
+
+.main-nav ul li:hover .sub-menu ul li:last-child {
+	border-bottom: none;
+	z-index: 5;
+}
+
+.main-nav ul li:hover .sub-menu ul li a:hover {
+	color:  white;
+	z-index: 5;
+}

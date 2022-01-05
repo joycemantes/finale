@@ -1,0 +1,58 @@
+body{
+	background-color:#EDEDED;
+}
+.picture{
+	object-position: none;
+	width: 380px;
+	height: 400px;
+}
+
+p{
+	font-size: 35px;
+}
+
+h3{
+	font-size: 40px;
+	font-style: italic;
+	margin-left: 35px;
+	margin-bottom: 10px;
+}
+
+.history{
+	font-size: 90px;
+}
+.up{
+	font-size: 50px;
+}
+.marker{
+
+	object-position: center;
+	height: 300%;
+	width: 250;
+}
+hr{
+
+  border-right: goldenrod;
+  border-top: 4px double; black;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.Experience {
+ font-size: 30px;
+ border-color= "#00000"
+ }
+
+.skilLs{ 
+	font-size: 30px;
+ border-color= "#00000"
+}
+
+.gucci { 
+	position: sticky;
+	object-position: right;
+	width: 380;
+	height: 450;
+	background-attachment: fixed; 
+}
+
